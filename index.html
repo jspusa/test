@@ -1,13 +1,15 @@
 <!doctype html>
 <html lang="zh-Hant">
 <head>
-<meta name="studio-offline-template" content="./downloads/huashan-offline-80ccc762a66a.html">
+<link rel="manifest" href="./manifest.webmanifest">
+<meta name="studio-offline-template" content="./downloads/huashan-offline-bc9723b5b4e3.html">
 <link rel="modulepreload" href="./assets/chunk-V5T36TVE.js">
 <link rel="preload" as="image" href="./assets/smokyGrey-7e2f47034ccc.webp">
 <link rel="preload" as="image" href="./assets/aomoriGrey-5a9360a8c4fa.webp">
 <link rel="preload" as="image" href="./assets/cityDaylight-4e34feb01ffb.webp">
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="studio-document" content="huashan-online-v3">
-<meta name="studio-version" content="3.1.0">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#f7f6f2"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="studio-document" content="huashan-online-v3">
+<meta name="studio-version" content="3.2.0">
 <title>華山 10F · 主管室材質工作室</title>
 <style>
 :root{color-scheme:light;--ink:#303730;--muted:#72786e;--paper:#f7f6f2;--line:#dedfd6;--accent:#56634c;--hover:#eeeee7;--warm:#a67145}*{box-sizing:border-box}body{margin:0;font:14px/1.5 -apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei",sans-serif;background:var(--paper);color:var(--ink);overflow:hidden}button,input,select{font:inherit}button{cursor:pointer;color:inherit;border:1px solid var(--line);background:#fff;border-radius:7px;padding:9px 13px;transition:background .15s,border-color .15s}button:hover{background:var(--hover);border-color:#aeb4a2}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #a6b28b;outline-offset:3px}button.active,button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}button.primary{background:var(--accent);color:#fff;border-color:var(--accent)}button.text-btn{border-color:transparent;background:transparent}button.small{padding:6px 10px;font-size:12px}button:disabled{opacity:.4;cursor:default}header{height:77px;display:flex;align-items:center;justify-content:space-between;padding:0 28px;border-bottom:1px solid var(--line);gap:15px;background:#fafaf7}h1{font-size:20px;letter-spacing:.06em;font-weight:550;margin:0}header p{color:var(--muted);font-size:11px;letter-spacing:.12em;margin:2px 0 0}.header-actions{display:flex;gap:8px;align-items:center}.header-actions .status{font-size:11px;color:var(--muted);margin-right:8px}main{display:grid;grid-template-columns:minmax(0,1fr) 330px;height:calc(100dvh - 77px)}#stage{position:relative;min-width:0;overflow:hidden;background:#e9eae3}#viewport{position:absolute;inset:0}#viewport canvas{width:100%;height:100%;display:block;touch-action:none;outline:0}.scene-heading{position:absolute;left:27px;top:23px;pointer-events:none}.scene-heading .kicker{font-size:11px;letter-spacing:.13em;color:#6e7768}.scene-heading h2{font-size:25px;font-weight:450;letter-spacing:.02em;margin:6px 0}.scene-heading p{font-size:12px;margin:0;color:#737d6d}.scene-tool{position:absolute;right:20px;top:22px;display:flex;gap:6px}.scene-tool button{background:#f9faf5e8}.scene-tool button[aria-pressed=true]{background:var(--accent)}#selection-tag{position:absolute;left:27px;top:131px;background:#f9faf3e8;border:1px solid #d9ddce;border-radius:4px;padding:6px 10px;color:#536044;font-size:12px;pointer-events:none}.viewbar{position:absolute;bottom:54px;left:50%;transform:translateX(-50%);display:flex;gap:4px;padding:6px;background:#f9faf5f2;border:1px solid #d7dccd;border-radius:10px;box-shadow:0 5px 20px #33412a0a;max-width:calc(100% - 20px);white-space:nowrap}.viewbar button{border:0;background:transparent;font-size:12px;padding:9px 14px}.viewbar button.active{background:var(--accent)}#hint{position:absolute;bottom:21px;left:10px;right:10px;text-align:center;font-size:11px;color:#69735e;pointer-events:none}.compass{position:absolute;bottom:122px;left:27px;width:52px;height:52px;border:1px solid #bdc5b2;border-radius:50%;display:grid;place-items:center;color:#69775e;font-size:10px;background:#fafcf480}.compass span{position:absolute;font-size:19px;top:4px;line-height:1;transform-origin:50% 22px}.walk-controls{position:absolute;bottom:125px;right:20px;display:none;grid-template-columns:42px 42px 42px;gap:4px}.walk-controls button{padding:9px;background:#f9faf5ed;touch-action:none}.walk-controls button:first-child{grid-column:2}.walk-controls button:nth-child(2){grid-column:1}.walk-controls.visible{display:grid}aside{background:var(--paper);border-left:1px solid var(--line);display:flex;flex-direction:column;min-height:0}.panel-title{padding:23px 22px 15px}.panel-title h2{font-size:17px;font-weight:550;margin:0 0 4px}.panel-title p{font-size:12px;color:var(--muted);margin:0}.tabs{display:flex;gap:2px;margin:0 20px;border-bottom:1px solid var(--line)}.tabs button{flex:1;border:0;border-radius:0;background:transparent;padding:11px 0;color:var(--muted);font-size:13px}.tabs button.active{color:var(--ink);border-bottom:2px solid var(--accent);font-weight:600}.panel-content{overflow:auto;flex:1;padding:22px 22px 30px;scrollbar-width:thin}.panel[hidden]{display:none}.field-label{font-size:12px;display:flex;align-items:center;justify-content:space-between;margin:0 0 9px}.muted{color:var(--muted);font-size:11px}.select{width:100%;padding:10px;border:1px solid #cdd1c3;background:white;border-radius:6px;color:var(--ink)}.section{margin-top:24px}.section-title{display:flex;justify-content:space-between;align-items:center;margin:0 0 12px;font-weight:500;font-size:12px}.swatches{display:grid;grid-template-columns:repeat(4,1fr);gap:10px 8px}.swatch{border:0;background:none;padding:0;text-align:center;font-size:10px;color:var(--muted)}.swatch:hover{background:none}.swatch i{display:block;height:46px;border:2px solid transparent;box-shadow:inset 0 0 0 1px #0000000d;outline:1px solid transparent;outline-offset:2px;border-radius:5px;margin-bottom:5px;background-size:cover}.swatch.active{color:var(--ink);background:none}.swatch.active i{outline-color:var(--accent);border-color:#f9faf5}.row{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:14px 0;font-size:12px}.row input[type=color]{width:42px;height:30px;background:none;border:1px solid #cdd1c3;border-radius:5px;padding:2px;cursor:pointer}.row .value{min-width:42px;color:var(--muted);font-variant-numeric:tabular-nums;text-align:right}input[type=range]{accent-color:var(--accent);width:100%;margin:4px 0 8px;height:15px}input[type=checkbox]{accent-color:var(--accent);width:16px;height:16px}.range-head{display:flex;justify-content:space-between;font-size:12px;margin-top:14px}.range-head output{color:var(--muted);font-variant-numeric:tabular-nums}.upload-zone{border:1px dashed #b6beaa;padding:14px 10px;text-align:center;border-radius:7px;margin-top:15px;background:#eff1e9}.upload-zone button{border:0;background:transparent;padding:1px;color:#556647;font-weight:500;font-size:12px}.upload-zone p{font-size:10px;color:var(--muted);margin:5px 0 0;overflow-wrap:anywhere}.mini-actions{display:flex;gap:8px;margin-top:15px}.mini-actions button{flex:1;font-size:11px;padding:7px}.note{font-size:11px;line-height:1.8;color:var(--muted);margin:14px 0 0}.scheme-list{display:grid;gap:8px}.scheme{display:flex;align-items:center;gap:10px;text-align:left;padding:11px;font-size:12px}.scheme .dots{display:flex;flex-shrink:0}.scheme i{width:17px;height:26px;display:block}.scheme i:first-child{border-radius:3px 0 0 3px}.scheme i:last-child{border-radius:0 3px 3px 0}.scheme span{flex:1}.scheme small{font-size:10px;color:var(--muted)}.rule{height:1px;background:var(--line);margin:22px 0}.summary-list{font-size:12px;display:grid;gap:11px}.summary-list div{display:flex;justify-content:space-between;gap:10px}.summary-list span{color:var(--muted)}.ref-button{width:100%;margin-top:12px;text-align:left;font-size:12px}.panel-foot{padding:13px 22px;border-top:1px solid var(--line);font-size:10px;color:#838b79;display:flex;justify-content:space-between}.saved-actions{display:grid;gap:9px}.saved-actions button{text-align:left;font-size:12px}.saved-design{padding:12px;background:white;border:1px solid var(--line);border-radius:7px;margin-bottom:10px}.saved-design header{height:auto;padding:0;border:0;background:none;font-size:12px;margin-bottom:10px}.saved-design .actions{display:flex;gap:6px}.saved-design button{font-size:11px;padding:5px 8px}#toast{position:fixed;bottom:20px;left:50%;transform:translate(-50%,15px);padding:11px 18px;background:#35432c;color:#fff;border-radius:8px;z-index:20;opacity:0;pointer-events:none;transition:.2s;font-size:12px;max-width:90vw;text-align:center}#toast.show{opacity:1;transform:translate(-50%,0)}dialog{border:0;border-radius:12px;padding:0;background:#f7f7f2;color:var(--ink);width:min(1000px,94vw);max-height:92dvh;box-shadow:0 20px 90px #1b28114d}dialog::backdrop{background:#25311cb0;backdrop-filter:blur(4px)}.dialog-head{padding:18px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line)}.dialog-head h2{font-size:17px;margin:0}.dialog-body{padding:22px;overflow:auto;max-height:calc(92dvh - 74px)}.dialog-body img{display:block;max-width:100%;max-height:65dvh;margin:auto;object-fit:contain}.ref-tabs{display:flex;gap:8px;margin-bottom:16px}.dialog-body p{font-size:12px;line-height:1.8;color:var(--muted)}#loading{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#e9eae3;z-index:5;padding:30px;text-align:center}#loading strong{font-size:22px;font-weight:450}#loading p{font-size:13px;color:var(--muted)}#loading[hidden]{display:none}#material-detail{font-size:11px;color:var(--muted);min-height:16px;margin:8px 0}.mobile-toggle{display:none}
@@ -21,6 +23,121 @@
 @media(max-width:900px){.scene-heading{max-width:calc(100% - 170px);left:12px;padding:7px 10px}.scene-heading h2{font-size:16px}.scene-tool{right:12px}.viewbar{max-width:calc(100% - 12px);gap:0;padding:4px;overflow-x:auto}.viewbar button{padding:8px;font-size:11px}#selection-tag{top:91px;left:12px}.header-actions .status{display:none}}
 @media(max-width:600px){.viewbar{flex-wrap:wrap;justify-content:center;bottom:32px;width:calc(100% - 12px);white-space:normal}.viewbar button{padding:6px 8px;font-size:10px}.scene-heading .subtitle{display:none}.scene-heading{top:12px;max-width:calc(100% - 150px)}.scene-tool{top:16px}#selection-tag{top:61px;max-width:90%;font-size:10px}#walk-hud{left:10px;bottom:35px}.walk-caption{display:none}#walk-map{width:112px;height:97px}.walk-actions{flex-direction:column}.walk-actions button{font-size:10px}#hint{font-size:9px}.compass{display:none}.header-actions #export-image{font-size:11px}}
 
+
+/* Compact screens devote the stage to the model. Panels are optional overlays. */
+:root{--safe-top:env(safe-area-inset-top,0px);--safe-right:env(safe-area-inset-right,0px);--safe-bottom:env(safe-area-inset-bottom,0px);--safe-left:env(safe-area-inset-left,0px)}
+#panel-close,.sheet-heading,.view-sheet-extra,#mobile-dock,#walk-joystick,.mobile-only{display:none}
+.view-sheet{display:contents}
+#immersive-status{position:fixed;top:calc(64px + var(--safe-top));left:50%;transform:translateX(-50%);z-index:80;max-width:calc(100% - 32px);background:#35432c;color:#fff;border-radius:8px;padding:10px 14px;font-size:12px;pointer-events:none;opacity:0;transition:opacity .2s}
+#immersive-status.visible{opacity:1}
+.scene-tool{max-width:calc(100% - 24px);flex-wrap:wrap;justify-content:flex-end}
+.scene-heading{max-width:calc(100% - 380px)}
+#material-panel .panel-title{display:flex;align-items:center;justify-content:space-between;gap:12px}
+body.immersive{position:fixed;inset:0;width:100%;height:100dvh;overscroll-behavior:none}
+body.immersive main{height:calc(100dvh - 77px)}
+html:fullscreen{background:var(--paper)}
+#fullscreen[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:#fff}
+@media(pointer:coarse){button,.select{min-height:44px}input[type=range]{height:44px}.row{min-height:44px}.row input[type=color]{width:44px;height:44px}input[type=checkbox]{width:24px;height:24px}.upload-zone button{min-height:44px;width:100%}}
+@media (max-width:899px),(pointer:coarse) and (max-height:899px){
+ :root{--mobile-header:calc(56px + var(--safe-top));--mobile-dock-height:calc(72px + var(--safe-bottom));--mobile-drawer-width:min(350px,43vw)}
+ html,body{width:100%;height:100%;overscroll-behavior:none}
+ #studio-header{height:var(--mobile-header);padding:var(--safe-top) calc(12px + var(--safe-right)) 0 calc(14px + var(--safe-left));gap:0}
+ #studio-header>div:first-child{max-width:calc(100% - 224px);min-width:0}
+ #studio-header h1{font-size:14px;font-weight:600;letter-spacing:.015em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ #studio-header p,#studio-header .header-actions{display:none}
+ main,body.immersive main{display:block;height:calc(100dvh - var(--mobile-header));position:relative}
+ body.studio-fullscreen #studio-header{position:absolute;inset:0 0 auto;z-index:25;background:#fafaf7d9;pointer-events:none}
+ body.studio-fullscreen main{height:100dvh}
+ body.studio-fullscreen .scene-heading{top:calc(var(--mobile-header) + 12px)}
+ body.studio-fullscreen #selection-tag{top:calc(var(--mobile-header) + 58px)}
+ body.studio-fullscreen #walk-hud{top:calc(var(--mobile-header) + 12px)}
+ #stage{width:100%;height:100%;min-height:0;overflow:hidden}
+ .scene-tool{position:fixed;right:calc(8px + var(--safe-right));top:calc(6px + var(--safe-top));z-index:35;gap:4px;max-width:none;flex-wrap:nowrap}
+ .scene-tool button.small{font-size:11px;min-height:44px;min-width:46px;padding:8px 6px;border-radius:7px;white-space:nowrap;max-width:73px;overflow:hidden;text-overflow:ellipsis;background:#fff}
+ .scene-tool #fullscreen{min-width:62px;max-width:72px}
+ #dimension-toggle{display:none}
+ .scene-heading{top:12px;left:calc(12px + var(--safe-left));max-width:calc(100% - 24px - var(--safe-left) - var(--safe-right));padding:7px 10px;background:#fafaf7d9}
+ .scene-heading h2{font-size:15px;line-height:1.4;margin:0}
+ .scene-heading .subtitle,.scene-heading .kicker{display:none}
+ #selection-tag{left:calc(12px + var(--safe-left));top:58px;max-width:calc(100% - 24px);font-size:10px;padding:4px 7px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;opacity:.9}
+ #hint{bottom:calc(var(--mobile-dock-height) + 2px);left:calc(12px + var(--safe-left));right:calc(12px + var(--safe-right));font-size:10px;max-width:none;white-space:normal;padding:3px 5px}
+ .compass{display:none}
+ #mobile-dock{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;position:fixed;z-index:45;left:50%;bottom:calc(10px + var(--safe-bottom));transform:translateX(-50%);width:min(410px,calc(100% - 24px - var(--safe-left) - var(--safe-right)));padding:5px;background:#fafaf7f5;border:1px solid #d4d9cc;border-radius:15px;box-shadow:0 5px 22px #2333201c}
+ #mobile-dock button{display:flex;align-items:center;justify-content:center;gap:7px;min-width:0;min-height:46px;border:0;padding:8px 6px;background:transparent;font-size:13px;border-radius:10px;white-space:nowrap}
+ #mobile-dock button.active,#mobile-dock button[aria-pressed=true]{background:var(--accent);color:#fff}
+ #mobile-dock svg{width:19px;height:19px;flex:none;stroke:currentColor;stroke-width:1.7;fill:none;stroke-linecap:round;stroke-linejoin:round}
+ #material-panel,.view-sheet{position:fixed;z-index:40;left:max(8px,var(--safe-left));right:max(8px,var(--safe-right));bottom:calc(var(--mobile-dock-height) + 3px);border:1px solid #d0d5c9;border-radius:16px;background:#f7f6f2;box-shadow:0 -5px 30px #26331d1f;min-height:0;max-height:48dvh;height:48dvh;overflow:hidden;transform:translateY(calc(100% + var(--mobile-dock-height) + 12px));opacity:0;pointer-events:none;transition:transform .2s ease,opacity .18s ease;display:flex;flex-direction:column}
+ body.mobile-materials-open #material-panel,body.mobile-views-open .view-sheet{transform:translateY(0);opacity:1;pointer-events:auto}
+ .mobile-materials-open #viewport{bottom:calc(48dvh + var(--mobile-dock-height) + 3px)}
+ .mobile-materials-open #selection-tag,.mobile-materials-open #hint{display:none}
+ .mobile-materials-open .scene-heading{padding:5px 8px}
+ .mobile-materials-open .scene-heading h2{font-size:13px}
+ #material-panel .panel-title{display:flex;padding:12px 14px 8px;min-height:58px;flex:none;gap:8px}
+ #material-panel .panel-title h2{font-size:16px;margin:0}
+ #material-panel .panel-title p{display:none}
+ #panel-close,.sheet-heading button{display:block;flex:none;min-height:44px;padding:8px 12px;font-size:12px;border-color:#cdd4c4;background:#fff}
+ .tabs{margin:0 14px;flex:none}
+ .tabs button{font-size:13px;min-height:44px;padding:8px 0}
+ .panel-content{padding:15px 16px 22px;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;min-height:0}
+ .panel-content button,.panel-content .select{min-height:44px;font-size:13px}
+ .panel-content select,.panel-content input{font-size:16px}
+ .panel-content .field-label{font-size:13px;margin-bottom:8px}
+ .panel-content .row{min-height:44px;font-size:13px}
+ .panel-content input[type=range]{height:44px;margin:0 0 4px}
+ .panel-content input[type=color]{width:44px;height:44px}
+ .panel-content input[type=checkbox]{width:24px;height:24px}
+ .panel-content .swatches{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px 10px}
+ .panel-content .swatch{min-height:76px;font-size:11px;line-height:1.35}
+ .panel-content .swatch i{height:48px;margin-bottom:7px}
+ .panel-content .upload-zone button{width:100%;min-height:44px;font-size:13px}
+ .section{margin-top:20px}
+ .panel-foot{display:none}
+ .mobile-only{display:block}
+ .sheet-heading{display:flex;align-items:center;justify-content:space-between;gap:10px;flex:none;padding:10px 14px;border-bottom:1px solid var(--line)}
+ .sheet-heading h2{font-size:16px;margin:0}
+ .view-sheet .viewbar,.walking .view-sheet .viewbar{position:static;left:auto;bottom:auto;transform:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-content:start;flex:1;min-height:0;width:100%;max-width:none;white-space:normal;gap:8px;margin:0;padding:12px;border:0;border-radius:0;box-shadow:none;background:none;overflow:auto}
+ .view-sheet .viewbar button{min-height:48px;padding:10px 8px;font-size:13px;border:1px solid var(--line);border-radius:8px;background:#fff}
+ .view-sheet .viewbar button.active{background:var(--accent);border-color:var(--accent);color:#fff}
+ .view-sheet-extra{display:block;padding:0 12px 12px;flex:none}
+ .view-sheet-extra button{min-height:44px;font-size:12px;width:100%}
+ #walk-controls{display:none!important}
+ #walk-hud{left:auto;right:calc(12px + var(--safe-right));top:14px;bottom:auto;align-items:flex-end;gap:6px;max-width:140px}
+ #walk-map{width:96px;height:83px;opacity:.84}
+ #walk-hud .walk-caption,#pointer-lock{display:none}
+ #walk-hud .walk-actions{display:block}
+ #leave-walk{min-height:44px;padding:8px 10px;font-size:12px;background:#fafaf7f0}
+ .walking .scene-heading{max-width:calc(100% - 135px)}
+ .walking #selection-tag{display:none}
+ #walk-joystick{position:absolute;left:calc(22px + var(--safe-left));bottom:calc(var(--mobile-dock-height) + 39px);width:112px;height:112px;border-radius:50%;border:1px solid #aab6a395;background:#e8ece27d;box-shadow:inset 0 0 0 15px #f7f8f127;touch-action:none;user-select:none;-webkit-user-select:none;z-index:15;align-items:center;justify-content:center}
+ .walking #walk-joystick{display:flex}
+ #walk-joystick.is-active{background:#d7e1cebd;border-color:#788b6c}
+ #walk-stick{position:absolute;width:48px;height:48px;top:50%;left:50%;transform:translate(calc(-50% + var(--stick-x,0px)),calc(-50% + var(--stick-y,0px)));border-radius:50%;background:#f7faf0e8;border:1px solid #9cab90;box-shadow:0 3px 10px #3d52332e;pointer-events:none}
+ .joystick-label{position:absolute;bottom:9px;color:#5c6b51;font-size:10px;pointer-events:none}
+ .mobile-materials-open #walk-joystick,.mobile-views-open #walk-joystick{opacity:.25;pointer-events:none}
+ #toast{bottom:calc(var(--mobile-dock-height) + 8px);font-size:12px;z-index:90}
+ dialog{width:calc(100% - 24px - var(--safe-left) - var(--safe-right));max-height:calc(100dvh - 30px - var(--safe-top) - var(--safe-bottom))}
+ dialog button{min-height:44px}
+ .dialog-body{max-height:calc(100dvh - 112px - var(--safe-top) - var(--safe-bottom));padding:16px}
+ .dialog-head{padding:12px 16px}.ref-tabs{gap:6px;flex-wrap:wrap}.ref-tabs button{font-size:12px;padding:8px 10px}
+ #loading{padding:18px;gap:12px;padding-bottom:calc(var(--mobile-dock-height) + 12px)}
+ #loading img{max-height:36%;width:min(460px,92%)}
+ #loading strong{font-size:19px}#loading p{font-size:12px}#loading small{font-size:10px}#loading .launch-link{min-height:44px}
+ @media(orientation:landscape){
+  #material-panel,.view-sheet{left:auto;right:var(--safe-right);top:var(--mobile-header);bottom:var(--safe-bottom);width:var(--mobile-drawer-width);height:auto;max-height:none;border-radius:14px 0 0 14px;transform:translateX(calc(100% + 12px))}
+  body.mobile-materials-open #material-panel,body.mobile-views-open .view-sheet{transform:translateX(0)}
+  .mobile-materials-open #viewport{bottom:0;right:calc(var(--mobile-drawer-width) + var(--safe-right))}
+  .mobile-materials-open .scene-heading{max-width:calc(100% - var(--mobile-drawer-width) - var(--safe-right) - 24px)}
+  .mobile-materials-open #mobile-dock,.mobile-views-open #mobile-dock{left:calc((100% - var(--mobile-drawer-width) - var(--safe-right) + var(--safe-left))/2);width:min(370px,calc(100% - var(--mobile-drawer-width) - 24px - var(--safe-left) - var(--safe-right)))}
+  .panel-content{padding:12px 14px 18px}.panel-content .swatches{gap:10px 8px}
+  .panel-content .swatch{font-size:10px}.panel-content .swatch i{height:40px}
+  #material-panel .panel-title,.sheet-heading{padding:8px 12px;min-height:54px}.tabs{margin:0 12px}
+  .view-sheet .viewbar{padding:10px;gap:7px}.view-sheet .viewbar button{min-height:44px}
+  #walk-map{width:85px;height:73px}#walk-hud{top:10px}#walk-joystick{width:100px;height:100px;bottom:calc(var(--mobile-dock-height) + 23px)}
+  #hint{left:145px;right:150px}
+  .mobile-materials-open #hint,.mobile-views-open #hint{right:calc(var(--mobile-drawer-width) + 12px);left:12px}
+ }
+}
+
 </style>
 <style>
 #loading{gap:14px}#loading img{width:min(520px,85%);max-height:48%;object-fit:contain;border-radius:8px;box-shadow:0 8px 28px #26331d1a}#loading p{max-width:440px;margin:0;line-height:1.7}#loading .launch-link{display:inline-block;text-decoration:none;background:#56634c;color:#fff;padding:12px 20px;border-radius:7px}#loading small{max-width:440px;color:#707767;line-height:1.7}#loading[data-status=starting] img{opacity:.7}#loading[data-status=starting] .launch-actions{display:none}#loading a:focus-visible{outline:3px solid #a6b28b;outline-offset:3px}
@@ -28,20 +145,22 @@
 </style>
 </head>
 <body>
-<header><div><h1>華山 10F · 主管室</h1><p>MATERIAL STUDIO / 空間材質示意</p></div><div class="header-actions"><span class="status" id="save-status">設定保存在此瀏覽器</span><button id="show-references" hidden>圖面與現況</button><button id="save-copy">另存網頁</button><button class="primary" id="export-image">4K 出圖</button></div></header>
+<header id="studio-header"><div><h1>華山 10F · 主管室</h1><p>MATERIAL STUDIO / 空間材質示意</p></div><div class="header-actions"><span class="status" id="save-status">設定保存在此瀏覽器</span><button id="show-references" hidden>圖面與現況</button><button id="save-copy">另存網頁</button><button class="primary" id="export-image">4K 出圖</button></div></header>
 <main>
 <section id="stage" aria-label="可互動的主管室 3D 模型">
 <div id="viewport"></div><div class="scene-heading"><div class="kicker">你的材質，放進真實比例的空間</div><h2 id="view-title">整體空間</h2><p class="subtitle">點選桌面或櫃子，開始試搭。</p></div>
-<div class="scene-tool"><button class="small" id="dimension-toggle" aria-pressed="false">尺寸</button><button class="small" id="fullscreen" title="全螢幕顯示">全螢幕</button></div>
+<div class="scene-tool" aria-label="視線與全螢幕"><button class="small" id="dimension-toggle" aria-pressed="false">尺寸</button><button class="small" id="visibility-toggle" aria-label="視線：自動；按一下切換通透模式">視線：自動</button><button class="small" id="ceiling-quick" aria-label="天花板：自動；按一下切換顯示方式">天花：自動</button><button class="small" id="fullscreen" title="全螢幕顯示" aria-pressed="false">全螢幕</button></div>
 <div id="selection-tag">正在編輯：辦公桌面＋櫃體檯面</div>
 <div class="compass" title="視角方向；非地理北向"><span id="compass-arrow">↑</span>窗側</div>
 <div class="walk-controls" id="walk-controls" aria-label="室內移動"><button data-move="forward" aria-label="向前">↑</button><button data-move="left" aria-label="向左">←</button><button data-move="back" aria-label="向後">↓</button><button data-move="right" aria-label="向右">→</button></div>
-<nav class="viewbar" aria-label="切換視角"><button data-view="presentation" class="active">室內提案</button><button data-view="overview">整體</button><button data-view="top">俯視</button><button data-view="desk">桌面近看</button><button data-view="cabinet">櫃子近看</button><button data-view="entry">玻璃門</button><button data-view="walk">走進室內</button><button id="reset-camera" title="重設視角">重設</button></nav>
+<section id="mobile-view-sheet" class="view-sheet" aria-label="視角選擇"><div class="sheet-heading"><h2 id="mobile-view-title">選擇視角</h2><button id="mobile-view-close" aria-label="關閉視角，回到模型">返回模型 ↓</button></div><nav class="viewbar" aria-label="切換視角"><button data-view="presentation" class="active">室內提案</button><button data-view="overview">整體</button><button data-view="top">俯視</button><button data-view="desk">桌面近看</button><button data-view="cabinet">櫃子近看</button><button data-view="entry">玻璃門</button><button data-view="walk">走進室內</button><button id="reset-camera" title="重設視角">重設</button></nav><div class="view-sheet-extra"><button id="mobile-dimensions" aria-pressed="false">顯示尺寸標示</button></div></section>
 <div id="walk-hud" hidden><div class="walk-caption">視高 160 cm · 家具碰撞已開啟</div><canvas id="walk-map" width="194" height="167" aria-label="目前位置平面圖"></canvas><div class="walk-actions"><button id="pointer-lock">鎖定滑鼠環視</button><button id="leave-walk">離開行走</button></div></div><div id="hint">拖曳旋轉 · 滾輪縮放 · 右鍵／雙指平移</div>
+<div id="walk-joystick" role="group" aria-label="行走搖桿"><span class="joystick-label">移動</span><div id="walk-stick"></div></div>
+<nav id="mobile-dock" aria-label="空間操作"><button id="mobile-materials" aria-controls="material-panel" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"/></svg><span>材質</span></button><button id="mobile-views" aria-controls="mobile-view-sheet" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5 9-5ZM3 12l9 5 9-5M3 16l9 5 9-5"/></svg><span>視角</span></button><button id="mobile-walk" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="13" cy="4" r="2"/><path d="m8 9 4-2 4 4 4 1M12 7l-2 7 5 3 1 5M10 14l-4 7M8 9l-2 5"/></svg><span>走進室內</span></button></nav>
 <div id="loading" data-status="preview"><img src="./assets/preview-5a7878d30c29.webp" alt="主管室 3D 模型預覽"><strong>開啟互動 3D 空間</strong><p>若畫面沒有開始載入，請重新載入，或使用 Chrome／Safari 並允許 JavaScript。</p><div class="launch-actions"><a class="launch-link" href="">重新載入 3D</a></div><small>首次開啟後即可行走、換材質；「另存網頁」可保留完整離線版。</small></div>
 </section>
-<aside>
-<div class="panel-title"><h2>試搭材質</h2><p>選一個部位，看看不同質感。</p></div>
+<aside id="material-panel" aria-labelledby="material-panel-title">
+<div class="panel-title"><div><h2 id="material-panel-title">試搭材質</h2><p>選一個部位，看看不同質感。</p></div><button id="panel-close" aria-label="收起材質面板，回到模型">返回模型 ↓</button></div>
 <div class="tabs" role="tablist"><button data-tab="materials" role="tab" aria-selected="true" class="active">材質</button><button data-tab="space" role="tab" aria-selected="false">空間</button><button data-tab="designs" role="tab" aria-selected="false">我的方案</button></div>
 <div class="panel-content">
 <section id="panel-materials" class="panel" role="tabpanel">
@@ -57,18 +176,19 @@
 </section>
 <section id="panel-space" class="panel" role="tabpanel" hidden>
 <label class="field-label" for="lighting-mood">室內光線</label><select id="lighting-mood" class="select"><option value="day">自然日光</option><option value="warm">暖色室內光</option></select>
-<label class="field-label" for="render-quality">畫面品質</label><select id="render-quality" class="select"><option value="high">細緻 · 材質與接觸陰影</option><option value="fast">流暢 · 適合較慢裝置</option></select>
-<p class="note">室內提案與第一人稱會顯示完整牆面及天花板。視高 160 cm，行走會避開牆面與家具。</p><div class="rule"></div>
-<label class="field-label" for="wall-mode">牆面顯示</label><select class="select" id="wall-mode"><option value="auto">自動隱藏遮擋視線的牆</option><option value="all">顯示完整牆面</option><option value="none">隱藏所有牆面</option></select><label class="row" for="ceiling-toggle">顯示天花板<input type="checkbox" id="ceiling-toggle"></label><label class="row" for="chairs-toggle">顯示座椅與螢幕<input type="checkbox" id="chairs-toggle" checked></label>
+<label class="field-label" for="render-quality">畫面品質</label><select id="render-quality" class="select"><option value="balanced">清晰（建議）</option><option value="fast">省電 · 順暢操作</option><option value="high">精緻 · 細節與柔和陰影</option></select>
+<p class="note">用上方「視線」與「天花」調整遮擋，近看桌櫃也能看清材質。行走視高 160 cm，會避開牆面與家具。</p><div class="rule"></div>
+<label class="field-label" for="wall-mode">牆面顯示</label><select class="select" id="wall-mode"><option value="auto">自動避開遮擋視線的牆</option><option value="cutaway">通透看家具</option><option value="all">顯示完整牆面</option><option value="none">隱藏所有牆面</option></select><div class="section"><label class="field-label" for="ceiling-mode">天花板顯示</label><select class="select" id="ceiling-mode"><option value="auto">自動避開視線</option><option value="show">顯示天花板</option><option value="hide">隱藏天花板</option></select></div><label class="row" for="chairs-toggle">顯示座椅與螢幕<input type="checkbox" id="chairs-toggle" checked></label>
 <div class="rule"></div><div class="section-title">高度示意 <span class="muted">圖面未標，初始值為估算</span></div><label class="range-head" for="desk-height">桌面高度 <output id="desk-height-value">74 cm</output></label><input id="desk-height" type="range" min="65" max="120" step="1" value="74"><label class="range-head" for="cab-height">櫃體高度 <output id="cab-height-value">90 cm</output></label><input id="cab-height" type="range" min="60" max="140" step="1" value="90">
 <div class="rule"></div><div class="section-title">平面圖標示尺寸</div><div class="summary-list"><div><span>整體寬 × 深</span><b>3468 × 3698 mm</b></div><div><span>桌面寬 × 最大深</span><b>1950 × 950 mm</b></div><div><span>桌面主段深度</span><b>800 mm</b></div><div><span>右櫃長 × 深</span><b>1800 × 450 mm</b></div><div><span>窗邊玻璃茶几</span><b>900 × 450 mm</b></div><div><span>椅間玻璃茶几</span><b>500 × 500 mm</b></div><div><span>桌至右櫃淨距</span><b>928 mm</b></div></div><p class="note">採平面圖 1950 mm 實線桌板方案。窗戶位置、窗台、家具高度與天花依現況照及線稿估算。門依最新確認設於右側牆；桌前三面擋腳板落地，左側改為玻璃茶几。</p><button class="ref-button" id="ref-from-space" hidden>查看原始圖面與現況照片 →</button>
 </section>
-<section id="panel-designs" class="panel" role="tabpanel" hidden><div class="section-title">保留喜歡的搭配</div><div class="saved-actions"><button class="primary" id="save-design">＋ 儲存目前方案</button><button id="export-json">匯出材質設定檔</button><button id="import-json">讀取材質設定檔</button><button id="export-html-panel">另存含目前材質的網頁</button></div><input type="file" id="json-file" accept=".json,application/json" hidden><p class="note">另存網頁會包含目前材質、上傳圖片與視角，傳給別人即可開啟。設定檔可在本頁重新讀取。</p><div class="rule"></div><div id="saved-list"></div><button id="reset-all" class="small">還原初始搭配</button></section>
+<section id="panel-designs" class="panel" role="tabpanel" hidden><div class="section-title">保留喜歡的搭配</div><div class="saved-actions"><button class="primary" id="save-design">＋ 儲存目前方案</button><button id="export-json">匯出材質設定檔</button><button id="import-json">讀取材質設定檔</button><button id="export-html-panel">另存含目前材質的網頁</button><button id="mobile-export-image" class="mobile-only">匯出目前視角 · 4K 圖片</button></div><input type="file" id="json-file" accept=".json,application/json" hidden><p class="note">另存網頁會包含目前材質、上傳圖片與視角，傳給別人即可開啟。設定檔可在本頁重新讀取。</p><div class="rule"></div><div id="saved-list"></div><button id="reset-all" class="small">還原初始搭配</button></section>
 </div><div class="panel-foot"><span>圖面家具 × 現場空間</span><span>可另存離線版</span></div>
 </aside>
 </main>
 <dialog id="render-dialog"><div class="dialog-head"><h2>輸出設計示意圖</h2></div><div class="render-body"><p>目前視角 · 3840 × 2160 PNG</p><div id="render-actions"><button id="render-fast" class="primary">4K 快速出圖</button><button id="render-fine">4K 精細光影渲染</button><p class="note">精細模式會逐步計算玻璃反射及室內光線反彈，依電腦效能可能需要數分鐘。輸出時請保持此頁開啟。</p></div><div id="render-progress" hidden><progress id="render-progress-bar" value="0" max="1"></progress><p id="render-progress-text" role="status">準備輸出…</p></div><button id="render-cancel">關閉</button></div></dialog>
 <dialog id="references"><div class="dialog-head"><h2>建模參考</h2><button id="close-references">關閉</button></div><div class="dialog-body"><div class="ref-tabs"><button data-ref="photo" class="active">現況照片</button><button data-ref="plan">尺寸平面圖</button><button data-ref="office">3D 線稿</button></div><img id="reference-image" alt="建模參考"><p id="reference-caption"></p></div></dialog>
+<div id="immersive-status" role="status" aria-live="polite"></div>
 <div id="toast" role="status" aria-live="polite"></div>
 <script id="saved-design" type="application/json">null</script>
 <script id="reference-data" type="application/json">{}</script>
@@ -83,5 +203,5 @@
  timer=setTimeout(function(){failed('已超過正常啟動時間。請重新載入，或使用 Chrome／Safari 開啟本頁。');},60000);
 })();
 </script>
-<script type="module" src="./assets/app-K7RWMWKS.js"></script>
+<script type="module" src="./assets/app-IX7JM6PS.js"></script>
 </body></html>
