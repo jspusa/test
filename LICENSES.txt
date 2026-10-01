@@ -114,3 +114,200 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+Stone photograph sources (CC0):
+{
+  "preparedAt": "2026-10-01",
+  "processing": "Single slab crop, optional 90-degree rotation, Lanczos resize, JPEG/WebP compression. Source albedo colours preserved. Narrow source crops can be upsampled; longest packaged edge is 1024px.",
+  "assets": [
+    {
+      "textureId": "stoneBeige",
+      "asset": "Marble026",
+      "source": "https://ambientcg.com/view?id=Marble026",
+      "download": "https://ambientcg.com/get?file=Marble026_1K-JPG.zip",
+      "license": "CC0-1.0",
+      "licenseURL": "https://docs.ambientcg.com/license/",
+      "authors": [
+        "Lennart Demes / ambientCG"
+      ],
+      "originalSize": [
+        1024,
+        1024
+      ],
+      "cropPixels": null,
+      "rotate90": false,
+      "outputSize": [
+        1024,
+        1024
+      ],
+      "aspect": 1.0,
+      "sourceSHA256": "944d9af73aeb834685510f71eeaf32b21c9944c2dfc4f85280a36d72c8875a85",
+      "jpegBytes": 192351,
+      "webpBytes": 96530,
+      "jpegSHA256": "d4c0c9718f3a4e386ef2871b5007f068444beb1fd235d63c82dd710ff758f0d0",
+      "webpSHA256": "5ddf7835f8e2f08a5ae64e75cf1f192e024d8696b79ccc1a5a1afd5346ec3bb4"
+    },
+    {
+      "textureId": "stoneCream",
+      "asset": "marble_01",
+      "source": "https://polyhaven.com/a/marble_01",
+      "download": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/marble_01/marble_01_diff_4k.jpg",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license",
+      "authors": [
+        "Rob Tuytel"
+      ],
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "cropPixels": [
+        280,
+        884,
+        1860,
+        1792
+      ],
+      "rotate90": false,
+      "outputSize": [
+        1024,
+        588
+      ],
+      "aspect": 1.7400881057268722,
+      "sourceSHA256": "3c7805a8988323b46d45d747530b659b4aa46e5bfa0b57c3d21083a403de229d",
+      "jpegBytes": 78036,
+      "webpBytes": 27608,
+      "jpegSHA256": "76c7db7f8c111d233a7d269d195e4d80e2efa34e867886c7b874b2de131d99bc",
+      "webpSHA256": "8d03e0bd21712a9d7de984fc8f42fcded4092675d14c84f7582aedcade9909a6"
+    },
+    {
+      "textureId": "stoneSilver",
+      "asset": "grey_cartago_03",
+      "source": "https://polyhaven.com/a/grey_cartago_03",
+      "download": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/grey_cartago_03/grey_cartago_03_diff_4k.jpg",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license",
+      "authors": [
+        "Lucas S\u00e1nchez Ros"
+      ],
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "cropPixels": [
+        1368,
+        548,
+        1728,
+        1584
+      ],
+      "rotate90": true,
+      "outputSize": [
+        1024,
+        356
+      ],
+      "aspect": 2.8777777777777778,
+      "sourceSHA256": "2ee27b587190a09e047105c88a4744afa7607be9500cef37781851cc88366ab3",
+      "jpegBytes": 48549,
+      "webpBytes": 17812,
+      "jpegSHA256": "13164bdf855d8c359e7ee3c485af161916c7601eadb918a441829df633a37fac",
+      "webpSHA256": "0039f114e916f3702cb3b416e52550df0e921d0615a3d0ad6b95426e24435b3b"
+    },
+    {
+      "textureId": "stoneRust",
+      "asset": "grey_cartago_01",
+      "source": "https://polyhaven.com/a/grey_cartago_01",
+      "download": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/grey_cartago_01/grey_cartago_01_diff_4k.jpg",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license",
+      "authors": [
+        "Lucas S\u00e1nchez Ros",
+        "Jenelle van Heerden"
+      ],
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "cropPixels": [
+        3000,
+        44,
+        3320,
+        716
+      ],
+      "rotate90": true,
+      "outputSize": [
+        1024,
+        488
+      ],
+      "aspect": 2.1,
+      "sourceSHA256": "5f1fe173ab5a9fae72a1319e5f556ee71005d17efd3e21d6a4081d8902b9a26f",
+      "jpegBytes": 71844,
+      "webpBytes": 27054,
+      "jpegSHA256": "38535114cf08ebd0dd650e9f55e447becafee231890d1d6d8544811186d47ab7",
+      "webpSHA256": "7bdec8fe9540e2307bc3b35ee5434c8f5ffce6b3a1c510c403d3d3234c0969ae"
+    },
+    {
+      "textureId": "stoneGranite",
+      "asset": "granite_tile_03",
+      "source": "https://polyhaven.com/a/granite_tile_03",
+      "download": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/granite_tile_03/granite_tile_03_diff_4k.jpg",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license",
+      "authors": [
+        "Charlotte Baglioni"
+      ],
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "cropPixels": [
+        36,
+        40,
+        1312,
+        2016
+      ],
+      "rotate90": false,
+      "outputSize": [
+        661,
+        1024
+      ],
+      "aspect": 0.645748987854251,
+      "sourceSHA256": "beba3c0bf8a15c99d5e711ab21ce8573527f5e4ef38498a182cc785ce0c20596",
+      "jpegBytes": 222500,
+      "webpBytes": 175882,
+      "jpegSHA256": "e099d041caf6a54356802c64a6146a0804b3a0e7a0fab6bdd90c7e5529538c3d",
+      "webpSHA256": "f7d47e61582dff1b23005afb6838f7f658a8bb46dee728c86e80b2a81093cdcd"
+    },
+    {
+      "textureId": "stoneTerrazzo",
+      "asset": "terrazzo_tiles",
+      "source": "https://polyhaven.com/a/terrazzo_tiles",
+      "download": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/terrazzo_tiles/terrazzo_tiles_diff_4k.jpg",
+      "license": "CC0-1.0",
+      "licenseURL": "https://polyhaven.com/license",
+      "authors": [
+        "Amal Kumar"
+      ],
+      "originalSize": [
+        4096,
+        4096
+      ],
+      "cropPixels": [
+        1588,
+        544,
+        1996,
+        988
+      ],
+      "rotate90": false,
+      "outputSize": [
+        941,
+        1024
+      ],
+      "aspect": 0.918918918918919,
+      "sourceSHA256": "e359b1f4e0113eb882561a181558d28d7b631e2991d951fe4e9d5883c5daf12f",
+      "jpegBytes": 185033,
+      "webpBytes": 97856,
+      "jpegSHA256": "1b617d9077dc393b0f7dcb9738155c3e84c454c115e3bb77fd87ebb2b5f0e700",
+      "webpSHA256": "ae7026b3dfd56c1294a12bcabee676f6cc687308170c6049ab0b4d8df382f0a8"
+    }
+  ]
+}
